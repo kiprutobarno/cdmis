@@ -1,4 +1,7 @@
 import express from "express";
+import run from "./Utils/db";
+
+run();
 
 const app = express();
 
